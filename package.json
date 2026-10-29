@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-police-shootings",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Police Shootings MCP — The Washington Post, Fatal Force database",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-police-shootings": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "police-shootings"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-police-shootings.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/police-shootings",
   "pipeworx": {
-    "sourceHash": "v1-8e4e55faacad3233e6814c56c64d0f24a3d7cfe9b8553a5496aaa9c8648749f6",
-    "sourceCommit": "3723e46c6d115bd4a1fd2175e6bf758555e7cb50"
+    "mode": "gateway",
+    "slug": "police-shootings",
+    "gatewaySlug": "police-shootings",
+    "sourceHash": "v1-6c24c3a26e270d90f0e2e86118411da7f390c6ae5b31f647b185ea24f542052a",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }

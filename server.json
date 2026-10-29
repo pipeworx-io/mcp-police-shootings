@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/police-shootings",
   "title": "Police Shootings",
   "description": "Police Shootings MCP — The Washington Post, Fatal Force database",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/police-shootings",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-police-shootings",
