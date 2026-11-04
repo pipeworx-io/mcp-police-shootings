@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-police-shootings",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Police Shootings MCP — The Washington Post, Fatal Force database",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "police-shootings",
     "gatewaySlug": "police-shootings",
-    "sourceHash": "v1-6c24c3a26e270d90f0e2e86118411da7f390c6ae5b31f647b185ea24f542052a",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-2ca51cb56fac4c5e606860e06a5353569c01b4498efdcde1c513f43380498cd2",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
